@@ -1,0 +1,8 @@
+.main-div {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  border: 1px solid black;
+  padding: 2%;
+  border-radius: 5px;
+  box-shadow: 2px 4px 3px 4px #888888;
+}
