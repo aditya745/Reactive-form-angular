@@ -7,7 +7,7 @@ export class RegistrationService {
   _url = "";
   constructor(private _http: HttpClient) {}
 
-register(userData) {
-return this._http.post<any>(this._url, userData);
-
+  register(userData) {
+    return this._http.post<any>(this._url, userData);
+  }
 }
